@@ -1,66 +1,45 @@
 <!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Minesweeper by superlll</title>
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Minesweeper</h1>
+        <p></p>
 
-  <title>Minesweeper</title>
-  <meta name="description" content="">
+        <p class="view"><a href="https://github.com/superlll/minesweeper">View the Project on GitHub <small>superlll/minesweeper</small></a></p>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-</head>
-
-<body>
-
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Minesweeper</h1>
-    </header>
-    <div id="container">
-      <p class="tagline"></p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/superlll/minesweeper/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/superlll/minesweeper/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/superlll/minesweeper" class="code">View Minesweeper on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>
+        <ul>
+          <li><a href="https://github.com/superlll/minesweeper/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/superlll/minesweeper/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/superlll/minesweeper">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
 <a id="this-is-the-project-about-minesweeper" class="anchor" href="#this-is-the-project-about-minesweeper" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>This is the project about Minesweeper</h3>
 
 <p>Requirement: Command-Line Minesweeper. Write a function which consumes three arguments width height number_of_mines and generates a Minesweeper board internally. The board is a rectangle with a cover over each square. It will display this board to the user and prompt for a coordinate where they predict that no mine exists (format: x-coord y-coord 0-indexed). If they struck a mine then they lose (let them know). Otherwise uncover the selected square. If there are no adjacent mines then it should be blank and you uncover all adjacent squares too (chain-react this for every blank square). Otherwise show the number of mines in the surrounding 8 squares. If at somepoint only mines are covered then the user wins and the game ends.<br>
 If you do not know how to use it, you can see the 'README' in the 'View On Github' which includes how to use it and introduction about it.</p>
-        </article>
-      </div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/superlll">superlll</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/superlll" class="avatar"><img src="https://avatars1.githubusercontent.com/u/22103089?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/superlll">superlll</a> maintains <a href="https://github.com/superlll/minesweeper">Minesweeper</a></p>
-
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/superlll/minesweeper/tarball/master" class="tar">tar</a><a href="https://github.com/superlll/minesweeper/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
-</body>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
 </html>
